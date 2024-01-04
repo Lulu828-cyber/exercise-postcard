@@ -16,12 +16,40 @@ p {
 }
 .postcard-header {
 	display: flex;
+	background: white;
+	width: 390px;
+	height: 50px;
+	margin: auto;
 }
-.postcard-header img {
-	width: 80px;
-	height: 80px;
-	margin-left: 200px;
+.postcard-body {
+	display: flex;
+	background: white;
+	width: 390px;
+	height: 200px;
+	margin: auto;
 }
-.postcard-header h1 {
-	width: 100px;
+.postcard-footer {
+	background: white;
+	width: 390px;
+	height: 45px;
+	margin: auto;
+}
+.body-left p:first-child {
+	margin-top: none;
+}
+.body-left,
+.body-right {
+	padding: x;
+	font-size: large;
+}
+input {
+	border: none;
+	border-bottom: gray;
+}
+.postcard-footer {
+	text-align: center;
+}
+.button {
+	background-color: blueviolet;
+	padding: 0%;
 }
